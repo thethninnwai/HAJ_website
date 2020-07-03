@@ -1,0 +1,140 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="job.css">
+</head>
+<header>
+    <div class="container-fluid" id="header">
+        <table>
+            <tr>
+                <td><img src="logo.png" alt="Golden Snitch" id="img1"></td>
+                <td>This company has started since 2020. We have got the trust of many clients in Japan,
+                and have helped many people find job that meets their needs.</td>
+                <td><img src="nurse-rabbit.png" alt="User" id="img2"></td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td><a href="user_signin.html">Sign in</a></td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+</header>
+<body>
+    <div class="container-fluid">
+        <form>
+            <label>Location:&nbsp;</label>
+                <select id="location" name="location">
+                    <option value="none" selected disabled hidden></option>
+                    <option value="Hokkaido">Hokkaido</option>
+                    <option value="Honshu">Honshu</option>
+                    <option value="Shikoku">Shikoku</option>
+                    <option value="Kyushu">Kyushu</option>
+                    <option value="Okinawa">Okinawa</option>
+                </select>&emsp;
+            <label>City:&nbsp;</label>
+                <select id="city" name="city">
+                    <option value="none" selected disabled hidden></option>
+                    <option value="Asahikawa">Asahikawa</option>
+                    <option value="Chitose">Chitose</option>
+                    <option value="Ebetsu">Ebetsu</option>
+                    <option value="Hakodate">Hakodate</option>
+                    <option value="Kitami">Kitami</option>
+                    <option value="Kushiro">Kushiro</option>
+                    <option value="Obihiro">Obihiro</option>
+                    <option value="Otaru">Otaru</option>
+                    <option value="Sapporo">Sapporo</option>
+                    <option value="Tomakomai">Tomakomai</option>
+                </select>&emsp;
+            <label>Employment Status:&nbsp;</label>
+                <select id="employment_sts" name="employment_sts">
+                    <option value="none" selected disabled hidden></option>
+                    <option value="fulltime">Full Time</option>
+                    <option value="parttime">Part Time</option>
+                </select>&emsp;
+            <label>Minimum Expected Salary:&nbsp;</label>
+                <input type="number" id="min_expectedsalary" name="min_expectedsalary" min="1">&emsp;
+            <label>Minimum Japanese Skill:&nbsp;</label>
+                <select id="min_japaneseskill" name="min_japaneseskill">
+                    <option value="none" selected disabled hidden></option>
+                    <option value="n3">N3</option>
+                    <option value="n2">N2</option>
+                    <option value="n1">N1</option>
+                </select> &emsp;
+            <button type="submit" onclick="" style="width: 100px;">Search</button>
+            </form>
+        <hr>
+    </div>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4" id="jobdescription">
+          <img src="rabbit-nurse.png" id="img2">
+          Job Title <br>
+          <a id="tag">Employment Status</a>
+          <a id="tag">City</a>
+          <p style="border: dotted 1px;">Job Description<br><br><br></p>
+          <button type="button" onclick="" id="button">View More</button>
+        </div>
+        <div class="col-sm-4" id="jobdescription">
+            <img src="rabbit-nurse.png" id="img2">
+            Job Title <br>
+            <a id="tag">Employment Status</a>
+            <a id="tag">City</a>
+            <p style="border: dotted 1px;">Job Description<br><br><br></p>
+            <button type="button" onclick="" id="button">View More</button>
+        </div>
+        <div class="col-sm-4" id="jobdescription">
+            <img src="rabbit-nurse.png" id="img2">
+            Job Title <br>
+            <a id="tag">Employment Status</a>
+            <a id="tag">City</a>
+            <p style="border: dotted 1px;">Job Description<br><br><br></p>
+            <button type="button" onclick="" id="button">View More</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4" id="jobdescription">
+          <img src="rabbit-nurse.png" id="img2">
+          Job Title <br>
+          <a id="tag">Employment Status</a>
+          <a id="tag">City</a>
+          <p style="border: dotted 1px;">Job Description<br><br><br></p>
+          <button type="button" onclick="" id="button">View More</button>
+        </div>
+        <div class="col-sm-4" id="jobdescription">
+            <img src="rabbit-nurse.png" id="img2">
+            Job Title <br>
+            <a id="tag">Employment Status</a>
+            <a id="tag">City</a>
+            <p style="border: dotted 1px;">Job Description<br><br><br></p>
+            <button type="button" onclick="" id="button">View More</button>
+        </div>
+        <div class="col-sm-4" id="jobdescription">
+            <img src="rabbit-nurse.png" id="img2">
+            Job Title <br>
+            <a id="tag">Employment Status</a>
+            <a id="tag">City</a>
+            <p style="border: dotted 1px;">Job Description<br><br><br></p>
+            <button type="button" onclick="" id="button">View More</button>
+        </div>
+    </div>
+    <div class="pagination" style="float: right;">
+        <a>&laquo;</a>
+        <a>1</a>
+        <a>2</a>
+        <a>3</a>
+        <a>4</a>
+        <a>&raquo;</a>
+    </div>
+    <div class="contact">
+        <h3>Contact Us</h3>
+        <a style="font-size: small;">Phone</a><br>
+        <a style="font-size: small;">E-mail</a><br>
+        <a style="font-size: small;">Address</a>
+    </div>
+<footer>
+    copyright&#169;
+</footer>
+</body>
+</html>
